@@ -15,7 +15,7 @@ Screen1 As screen:
         Height: =70
         OnSelect: =Set(countButton,countButton + 1)
         Size: =24
-        Text: ="ボタン"
+        Text: ="Add"
         Width: =280
         X: =180
         Y: =422
