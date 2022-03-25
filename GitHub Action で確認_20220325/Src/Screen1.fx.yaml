@@ -8,7 +8,7 @@ Screen1 As screen:
         Text: ="GitHub Action で確認"
         Width: =560
         X: =40
-        Y: =536
+        Y: =639
         ZIndex: =1
 
     Button1 As button:
@@ -31,4 +31,14 @@ Screen1 As screen:
         X: =40
         Y: =278
         ZIndex: =3
+
+    Button2 As button:
+        Height: =70
+        OnSelect: =Set(countButton,0)
+        Size: =24
+        Text: ="Reset"
+        Width: =280
+        X: =180
+        Y: =521
+        ZIndex: =4
 
