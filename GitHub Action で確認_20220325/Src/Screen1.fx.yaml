@@ -11,3 +11,12 @@ Screen1 As screen:
         Y: =536
         ZIndex: =1
 
+    Button1 As button:
+        Height: =70
+        Size: =24
+        Text: ="ボタン"
+        Width: =280
+        X: =180
+        Y: =422
+        ZIndex: =2
+
