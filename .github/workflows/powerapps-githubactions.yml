@@ -1,9 +1,13 @@
+name: CI
+
+on: [push]
+
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
-    - name: Sample
-      uses: microsoft/powerplatform-actions/export-solution@v0
-      run: echo "Executed GitHub Actions"
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo "GitHub Action with Power Apps"
