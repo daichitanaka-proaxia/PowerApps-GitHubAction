@@ -13,6 +13,7 @@ Screen1 As screen:
 
     Button1 As button:
         Height: =70
+        OnSelect: =countButton + 1
         Size: =24
         Text: ="ボタン"
         Width: =280
