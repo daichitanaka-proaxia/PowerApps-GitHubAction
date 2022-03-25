@@ -4,10 +4,11 @@
     "App": 1,
     "Button1": 5,
     "Label1": 4,
+    "Label2": 6,
     "Screen1": 3
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "03/25/2022 04:28:25",
+  "HeaderLastSavedDateTimeUTC": "03/25/2022 04:31:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -23,8 +24,9 @@
   },
   "PublishOrderIndices": {
     "App": 0,
-    "Button1": 0,
-    "Label1": 0,
+    "Button1": 1,
+    "Label1": 2,
+    "Label2": 0,
     "Screen1": 0
   },
   "ResourcesJsonIndices": {},

@@ -13,11 +13,22 @@ Screen1 As screen:
 
     Button1 As button:
         Height: =70
-        OnSelect: =countButton + 1
+        OnSelect: =Set(countButton,countButton + 1)
         Size: =24
         Text: ="ボタン"
         Width: =280
         X: =180
         Y: =422
         ZIndex: =2
+
+    Label2 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =50
+        Text: =countButton
+        Width: =560
+        X: =40
+        Y: =278
+        ZIndex: =3
 
